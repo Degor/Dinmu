@@ -9,6 +9,9 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+    </feature>
     <name>Dinmu</name>
     <description>
         Do I need my umbrella today?
@@ -58,8 +61,4 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
-    <feature name="Geolocation">
-        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
-        <param name="android-package" value="org.apache.cordova.GeoBroker" />
-    </feature>
 </widget>
